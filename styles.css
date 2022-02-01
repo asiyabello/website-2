@@ -1,0 +1,60 @@
+body {
+    background-image: url('background.jpg');
+    background-repeat: repeat;
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+
+.navbar {
+    background: white;
+    padding: 10px;
+    color: green;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+a {
+    color: green;
+}
+
+.sidebar {
+    float: left;
+    margin: 5px;
+}
+
+.contain {
+    max-width: 80%;
+    margin: auto;
+    border: 1px solid white;
+    padding: 2px;
+}
+
+.table {
+    display: table;
+    /* Allow the centering to work */
+    margin: 0 auto;
+}
+
+ul#horizontal-list {
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-list li {
+    display: inline;
+    background: white;
+    padding: 6px;
+    border-radius: 6px;
+    margin: 3px;
+    font-size: large;
+}
+
+ul#horizontal-list li a {
+    text-decoration: none;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
